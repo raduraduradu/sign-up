@@ -1,0 +1,14 @@
+@font-face {
+  font-family: butler;
+  src: url(./Butler_Black.otf);
+}
+
+body {
+  background-color: #222;
+  color: #ffc;
+}
+
+div.logo-text {
+  font-size: 60px;
+  font-family: butler, sans-serif;
+}
