@@ -4,11 +4,41 @@
 }
 
 body {
+  margin: 0;
+  height: 100vh;
   background-color: #222;
   color: #ffc;
+  display: flex;
+  flex-direction: row;
 }
 
-div.logo-text {
+.image-container {
+  flex: 1;
+  background: url(../images/leon-seibert-m3SOfk_S79o-unsplash.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-container {
+  flex: 2;
+}
+
+div.logo-div {
   font-size: 60px;
   font-family: butler, sans-serif;
+  margin-bottom: 200px;
+  padding: 15px 15px 15px 15px;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+.logo-div img {
+  height: 100px;
 }
