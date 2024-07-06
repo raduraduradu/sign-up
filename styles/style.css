@@ -50,7 +50,6 @@ div.logo-div {
 }
 
 
-
 .input-container {
   flex: 2;
   display: flex;
@@ -61,10 +60,16 @@ div.logo-div {
   flex: 1;
 }
 
+.text p {
+  font-size: 30px;
+  margin: 60px 20px 20px 20px;
+}
+
 .fields {
   flex: 1;
   background-color: #2a2a2a;
   padding: 0px 50px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
 }
 
 .fields form {
@@ -97,3 +102,4 @@ input {
 .submit {
   flex: 1;
 }
+
