@@ -4,6 +4,7 @@
 }
 
 body {
+  font-family: roboto, sans-serif;
   margin: 0;
   height: 100vh;
   background-color: #222;
@@ -42,7 +43,7 @@ div.logo-div {
 
 #credits {
   position: absolute;
-  bottom: 10%;
+  bottom: 5%;
 }
 #credits a {
   color: inherit;
@@ -63,6 +64,34 @@ div.logo-div {
 .fields {
   flex: 1;
   background-color: #2a2a2a;
+  padding: 0px 50px;
+}
+
+.fields form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25%;
+}
+
+.fields form label {
+  font-size: 90%;
+  white-space: nowrap;
+}
+
+.fields form div {
+  box-sizing: border-box;
+  width: 20%;
+  min-width: 125px;
+}
+
+input {
+  background-color: inherit;
+  color: inherit;
+  border: 1px solid #774;
+  border-radius: 4px;
+  width: 100%;
+  margin: 8px 0;
+  padding: 8px 12px;
 }
 
 .submit {
