@@ -88,6 +88,10 @@ a {
   width: 20%;
   min-width: 125px;
 }
+.fields form input:user-invalid {
+  border: 2px solid red;
+}
+
 
 input {
   background-color: inherit;
