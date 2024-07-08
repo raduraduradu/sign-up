@@ -45,8 +45,8 @@ div.logo-div {
   position: absolute;
   bottom: 5%;
 }
-#credits a {
-  color: inherit;
+a {
+  color: #f98f2a;
 }
 
 
@@ -103,3 +103,15 @@ input {
   flex: 1;
 }
 
+button {
+  color: inherit;
+  background-color: #f07515;
+  border: none;
+  border-radius: 2px;
+  padding: 12px 24px;
+  margin: 24px 0 12px 36px;
+}
+
+.submit p {
+  margin-left: 36px;
+}
